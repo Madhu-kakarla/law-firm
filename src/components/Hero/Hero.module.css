@@ -1,0 +1,60 @@
+.wrapper {
+	background-color: var(--color-black);
+	display: flex;
+	padding: 2rem 0;
+}
+
+.banner {
+	width: 80%;
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+}
+.bannerLeft {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+	width: 65%;
+}
+
+.bannerLeft h2 {
+	font-family: 'Inter', sans-serif;
+	font-size: 5rem;
+}
+
+.bannerLeft p {
+	font-family: 'Inter', sans-serif;
+	text-align: left;
+	width: 80%;
+	opacity: 0.3;
+}
+
+.bannerRight {
+	display: flex;
+	width: 35%;
+}
+
+.bannerRight img {
+	width: 100%;
+	height: 30rem;
+}
+.bannerLeft .inputWrapper {
+	width: 50%; 
+	margin-top: 1rem;
+	outline: var(--text-black);
+	border-color: var(--text-black);
+}
+
+.bannerLeft .emailInput {
+	border-radius: 2rem;
+	background-color: var(--text-black);
+	color: rgba(255, 255, 255, 0.4);
+	font-family: 'Inter',sans-serif;
+}
+
+.bannerLeft .inputButton {
+	background-color: var(--color-primary);
+	color: var(--color-black);
+	border-radius: 2rem;
+}

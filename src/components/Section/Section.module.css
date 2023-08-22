@@ -1,0 +1,42 @@
+.wrapper {
+	width: 80%;
+	margin: auto;
+	display: flex;
+	padding: 4rem 0 3rem;
+	column-gap: 2rem;
+	justify-content: space-evenly;
+}
+
+.sectionLeft {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	font-family: 'Inter', sans-serif;
+}
+
+.sectionLeft h3 {
+	font-family: 'Inter', sans-serif;
+}
+
+.wrapper .divider {
+	border-color: #6A6A6A;
+}
+
+.sectionRight {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+	row-gap: 1rem;
+}
+
+.sectionRight h5 {
+	font-family: 'Inter', sans-serif;
+}
+
+.sectionRight p {
+	text-align: left;
+	color: var(--color-white);
+	opacity: 0.3;
+	font-family: 'Inter', sans-serif;
+}

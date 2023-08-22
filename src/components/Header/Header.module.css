@@ -1,0 +1,11 @@
+.headerWrapper {
+  display: flex;
+	background-color: var(--color-black);
+	padding: 2rem 0;
+}
+.header{
+	width: 80%;
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+}

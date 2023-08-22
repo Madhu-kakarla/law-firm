@@ -1,0 +1,23 @@
+.wrapper {
+  display: flex;
+	background-color: var(--color-black);
+	padding: 4rem 0;
+}
+
+.footer {
+	width: 80%;
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+	row-gap: 3rem;
+}
+.footerTop{
+	display: flex;
+	justify-content: space-between;
+}
+
+.footerBottom {
+	display: flex;
+	justify-content: center;
+	align-items: baseline;
+}

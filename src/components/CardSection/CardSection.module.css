@@ -1,0 +1,37 @@
+.wrapper {
+	display: flex;
+	width: 80%;
+	margin: auto;
+}
+
+.wrapper .cardWrapper{
+	display: flex;
+	flex-direction: column;
+	background-color: var(--color-bg);
+	border: 1px solid var(--color-white);
+	color: var(--color-white);
+	padding: 1rem;
+	text-align: left;
+	&:hover {
+		background-color: #2E2E2E;
+	}
+}
+
+.cardWrapper .cardImg {
+	height: 50px;
+	background-size: contain;
+	background-position: left;
+	position: relative;
+	left: 15px;
+}
+
+.cardWrapper p {
+	color: var(--color-white);
+	opacity: 0.3;
+	font-family: 'Inter', sans-serif;
+}
+.cardWrapper .cardButton {
+	background-color: var(--color-primary);
+	color: var(--text-black);
+	border-radius: 2rem;
+}
